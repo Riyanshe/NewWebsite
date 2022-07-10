@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#icon{
+    margin: 10px 30px;
+}
+#icon img{
+    height: 50px;
+    margin: 5px 8px;
+    border: 0px;
+    border-radius: 60px;
+} 
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    color: rgb(33, 3, 68);
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: yellow;
+    transform: scale(1.1);
+    z-index: 1;
+}
+#page::before{
+    content: "";
+    background: url('iiit.jpg') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.6;
+}  
+#page{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 580px;
+    justify-content: center;
+    align-items: center;
+}
+#page h1{
+    text-align: center;
+
+}
+#page p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Lobster', cursive;
+}
+.first{
+    font-size: 2.6rem;
+    padding: 14px;
+}
+.structure{
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.structure .box{
+    border: 2px solid brown;
+    padding: 40px;
+    margin: 4px 8px;
+    border-radius: 30px;
+    background-color: rgb(190, 191, 194);
+
+}
+.structure .box img{
+    height: 170px; 
+    width: 24vw;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+}
+.box img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.h-secondary{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: red;
+    padding: 12px;
+    text-align: center;
+}
+.box h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+    text-align: center;
+}
+.new{
+    font-family: 'Lobster', cursive;
+    color: rgb(145, 8, 31);
+}
+.box p{
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+    color: rgb(4, 4, 75);
+    padding: 12px;
+    text-align: center;
+}
+
+table,tr,th,td{
+    
+    color: rgb(5, 54, 3);
+    border:2px solid black;
+    border-collapse: collapse;
+    padding:10px;
+    border-style: solid;
+}
+.Conclusion{
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+}
+.Conclusion p{
+    color: rgb(139, 7, 7);
+    font-family: 'Lobster', cursive;
+}
+.center{
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+
